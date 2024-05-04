@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.wrapper {
+    padding: 2.5rem 5%;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.warning {
+    padding-bottom: 1rem;
+}
+
+.dpSpeed {
+    width: 2rem;
+}
+
+.playBtn {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.propControls span input {
+    background: white;
+}
+
+.fmDesc {
+    padding-top: 1em;
+}
+
+.txIncidImg {
+    margin: 15px 0;
+    width: 25%;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    stroke: white;
+    stroke-width: 0.1px;
+    padding: 1rem 0;
+}
+
+.fullFranceMap {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreshedDate {
+    font-size: 12px;
+}
+
+.depMap {
+    display: flex;
+    width: 50%;
+}
+
+.omMap {
+    display: flex;
+    margin-bottom: -100px;
+}
+
+.omMap svg {
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 640px) {
+    .txIncidImg {
+        width: 75%;
+    }
+    .fullFranceMap svg {
+        width: 100%;
+    }
+}
