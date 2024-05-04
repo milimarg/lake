@@ -22,7 +22,7 @@ function getYearParameter() {
 function searchImages(year) {
     let img;
     let imgNumber;
-    
+
     fetch('./yearsList.json')
     .then(response => {
         return response.json();

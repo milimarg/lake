@@ -1,0 +1,60 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin: 5%;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.no-camera {
+    color: red;
+    display: none;
+}
+
+.change-camera {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.video-container.example-style-1
+.scan-region-highlight-svg,
+.code-outline-highlight {
+    stroke: #FFC040 !important;
+}
+
+.video-container.hidden {
+    display: none;
+}
+
+video {
+    resize: both;
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    video {
+        max-width: 100%;
+    }
+}
+
+.isthaturl {
+    display: none;
+    margin-top: 1rem;
+}

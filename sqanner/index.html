@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/ressources/logos/sqanner-logo.png">
+    <title>sQanneR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Scanneur de code QR</h1>
+
+        <p class="no-camera">Aucune caméra détectée !</p>
+
+        <div class="video-container">
+            <p class="change-camera">🔄</p>
+            <video class="qr-video"></video>
+        </div>
+
+        <div class="result">
+            <span class="cam-qr-result"></span>
+
+            <div class="isthaturl">
+                <p>
+                    Ce que vous avez scanné à
+                    l'air d'être un lien.
+                </p>
+                <p>
+                    Cliquez dessus pour l'ouvrir.
+                </p>
+            </div>
+        </div>
+
+        <script src="script.js" type="module"></script>
+    </div>
+</body>
+</html>
